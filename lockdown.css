@@ -47,3 +47,41 @@ h4 {
   font-family: 'Varela Round', sans-serif;
   font-size: 0.5cm;
 }
+
+.header {
+  background-color: #cc8800;
+    height: 35px;
+    padding:2px;
+    border: 1px dotted #ff5050;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.5vh;
+}
+
+.left, .right {
+
+    border: 1px solid #ff3333;
+    height:700px;
+    width: 50%;
+    background-color: #b3ffff;
+
+    box-sizing: border-box;
+    float: left;
+    padding: 2%;
+    font-size: 4.5vh;
+    
+}
+
+p {
+  font-family: 'Varela Round', sans-serif;
+  text-decoration: underline;
+}
+
+h5 {
+  font-size: 3.5vh;
+  text-decoration: none;
+}
+
+h6 {
+  font-size: 3.5vh;
+  text-decoration: none;
+}
