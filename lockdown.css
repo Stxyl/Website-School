@@ -1,0 +1,49 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: darkgrey;
+}
+img {
+    width: 31%;
+    border: 1px solid rgb(77, 230, 153);
+
+}
+p {
+    padding: 3px;
+    color: rgb(34, 67, 212);
+    font-size: 1.1em;
+}
+
+/* Navigation formating timeeeeee */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(17, 231, 124);
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1cm;
+  text-decoration: underline;
+}
+
+h4 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.5cm;
+}
