@@ -49,6 +49,18 @@ h4 {
 }
 
 .header {
+    /* The image used */
+  background-image: url('img_parallax.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   background-color: #cc8800;
     height: 35px;
     padding:2px;
@@ -84,4 +96,18 @@ h5 {
 h6 {
   font-size: 3.5vh;
   text-decoration: none;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("Images/Banner.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
