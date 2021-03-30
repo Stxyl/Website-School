@@ -1,7 +1,7 @@
 body {
     margin: 0 auto;
     text-align: center;
-    background-color: darkgrey;
+    background-color: rgb(167, 197, 197);
 }
 img {
     width: 31%;
@@ -20,7 +20,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(17, 231, 124);
+    background-color: #F86624;
 }
 
 li {
@@ -37,9 +37,9 @@ li a:hover {
     background-color: #111;
 }
 
-/* Webpage Panels */
+/* Webpage Panels (Hobbies.html)*/
 .Header {
-    background-color: #fdd6ff;
+    background-color: #43BCCD;
     height: 50px;
     padding:2px;
     border: 1px dotted blue;
@@ -51,10 +51,10 @@ li a:hover {
 
 .left, .right {
 
-    border: 1px solid yellow;
+    border: 1px solid #F9D00E;
     height:700px;
     width: 50%;
-    background-color: azure;
+    background-color: rgb(243, 108, 108);
 
     box-sizing: border-box;
     float: left;
@@ -80,10 +80,12 @@ h3 {
 }
 
 .footer {
-    width: 80%;
-    background-color: black;
+    width: 100%;
+    background-color: #F86624;
     color: white;
     padding: 2%;
     margin:0 auto;
     box-sizing: border-box;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
 }
